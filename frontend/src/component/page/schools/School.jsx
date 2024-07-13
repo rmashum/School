@@ -1,8 +1,8 @@
 // src/App.js
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import SchoolForm from './components/SchoolForm';
-import SchoolsList from './components/SchoolsList';
+import SchoolsList from "./SchoolsList";
+import SchoolForm from "./SchoolForm";
 
 const School = () => {
     const [schools, setSchools] = useState([]);

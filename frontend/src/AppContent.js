@@ -39,16 +39,19 @@ export const AppContent = ({flag, handleBooleanChange, setFlag}) => {
             <Route path="/academics" element={<Academics/>}/>
             <Route path="/settings" element={<Settings/>}/>
             <Route path="/logout" element={<Logout/>}/>
-            {/*  <Route path="/settings/manage/users" element={<AccountManagementUsers/>}/>
+            {
+            /*
+            <Route path="/settings/manage/users" element={<AccountManagementUsers/>}/>
             <Route path="/settings/account" element={<MyUserDetails/>}/>
-
             <Route path="/settings/manage/business" element={<MyBusinessAccount/>}/>
             <Route path="/settings/invoice" element={<Invoice/>}/>
             <Route path="/settings/thermal/print" element={<Print/>}/>
             <Route path="/settings/pricing" element={<Pricing/>}/>
             <Route path="/settings/help/support" element={<HelpSupport/>}/>
             <Route path="/settings/feedback" element={<Feedback/>}/>
-            <Route path="/settings/test" element={<InvoiceGenerator/>}/>*/}
+            <Route path="/settings/test" element={<InvoiceGenerator/>}/>
+            */
+            }
 
             <Route path="*" element={<> not found</>}/>
         </Routes>;
