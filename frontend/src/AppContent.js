@@ -13,6 +13,7 @@ import Logout from "./component/page/Logout";
 import Expenses from "./component/page/Expenses";
 import Attendance from "./component/page/Attendance";
 import SideBar from "./component/Sidebar/SideBar";
+import School from "./component/page/schools/School";
 
 export const AppContent = ({flag, handleBooleanChange, setFlag}) => {
     const [sidebarType, setSidebarType] = useState('default');
@@ -29,6 +30,7 @@ export const AppContent = ({flag, handleBooleanChange, setFlag}) => {
     function getRoutesAndElement() {
         return <Routes>
             <Route path="/" element={<Dashboard/>}/>
+            <Route path="/school" element={<School/>}/>
             <Route path="/student" element={<Student/>}/>
             <Route path="/registration" element={<Registration/>}/>s
             <Route path="/transport" element={<Transport/>}/>

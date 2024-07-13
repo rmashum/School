@@ -26,6 +26,7 @@ const IconContainer = styled.div`
 
 const routes = [
     {path: '/', name: 'Dashboard', icon: <IconContainer><FaHome color="white"/></IconContainer>},
+    {path: '/school', name: 'School', icon: <IconContainer><FaHome color="white"/></IconContainer>},
     {path: '/registration', name: 'Registration', icon: <IconContainer><BsCartCheck color="white"/></IconContainer>},
     {
         path: '/student',
