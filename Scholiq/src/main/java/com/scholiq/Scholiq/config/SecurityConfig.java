@@ -1,5 +1,5 @@
-package com.scholiq.Scholiq.config;/*
-package com.hesabbook.config;
+/*
+package com.scholiq.Scholiq.config;
 
 import java.util.Arrays;
 
@@ -17,7 +17,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.OPTIONS;
 
 @Configuration
 @EnableWebSecurity
-public class SecurityConfig {
+public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Bean
     CorsConfigurationSource corsConfigurationSource() {
@@ -30,4 +30,5 @@ public class SecurityConfig {
         return source;
     }
 }
+
 */
